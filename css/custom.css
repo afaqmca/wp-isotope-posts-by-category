@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 30, 2018, 12:26:24 AM
+    Author     : AFAQ
+*/
+* {
+    box-sizing: border-box;
+}
+/* Create three equal columns that floats next to each other */
+.column-2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.column-3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.column-4 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.column-5 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+}
+.btn-default {
+    background-color: #fff;
+    border-color: #ccc;
+    color: #333;
+}
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+*::after, *::before {
+    box-sizing: border-box;
+}
+*::after, *::before {
+    box-sizing: border-box;
+}
+.entry-content a, .entry-summary a, .page-content a, .comment-content a, .pingback .comment-body > a {
+    border-bottom: 1px solid #ddd;
+}
+.btn-default {
+    background-color: #69668a;
+    border-color: #644c80;
+    color: #fff;
+}
+.btn {
+    border: 0 none;
+    border-radius: 2px;
+    box-shadow: 0 -2.2px rgba(0, 0, 0, 0.12) inset, 2px 0 rgba(0, 0, 0, 0.1) inset;
+    margin-right: 5px;
+    outline: 0 none;
+    transition: all 0.3s ease 0s;
+    border-color: #ccc;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.mtext-center {
+    text-align: center;
+}
+.mthumbnail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+    line-height: 1.42857;
+    margin-bottom: 20px;
+    padding: 4px;
+    transition: border 0.2s ease-in-out 0s;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column-2 {
+        width: 100%;
+    }
+	.column-3 {
+        width: 100%;
+    }
+	.column-4 {
+        width: 100%;
+    }
+	.column-5 {
+        width: 100%;
+    }	
+}
