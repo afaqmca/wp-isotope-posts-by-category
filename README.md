@@ -1,5 +1,7 @@
 # WP Isotope Posts by Category
-This is Isotope based wordpress plugin. It work with bootstrap css.Short code [wp_isotope_posts]
+This is WordPress Isotope Posts by Category. It also works with custom posts and custom taxonomy on WordPress. In this plugin you  can use Bootstrap css.
+
+Short code [wp_isotope_posts]
 
 
 === WP Isotope Posts by Category ===
